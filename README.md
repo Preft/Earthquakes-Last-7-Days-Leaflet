@@ -3,7 +3,7 @@ Plotting all Earthquakes from the last 7 days.
 Radius and color are weighted by magnitude and depth respectively.
 
 ## Instructions
-<b>Create a file called conf.js and add the following:</>
+<b>Create a file called conf.js and add the following:</b>
 
 const API_KEY = "Your API Key Here"
 
