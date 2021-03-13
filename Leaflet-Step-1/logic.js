@@ -69,7 +69,7 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
   let div = L.DomUtil.create('div', 'info legend'), grades = [-10, 10, 30, 50, 70, 90];
   for (let i = 0; i < grades.length; i++) {
-    div.innerHTML += '<i style="background:' + colors[i] + '"></i> ' + grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    div.innerHTML += '<i style="background: ' + colors[i] + '"></i> ' + grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
   }
  
   return div;
